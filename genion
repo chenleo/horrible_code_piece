@@ -15,7 +15,7 @@ for (i = 0; (i < atoms.nr); i++)
     
 iqtot = gmx_nint(qtot);
 
-/* for float point precision, the for loop result will not reliable with atoms.nr > 10,000. 
+/* for float point precision, the for loop result will not reliable with atoms.nr > 100,000. 
 Tiny mistake will lead to none neutral system.
 
 
